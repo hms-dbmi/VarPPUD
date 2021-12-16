@@ -8,12 +8,12 @@ Repository with the code developed for the manuscrip VarPPUD: predicting pathoge
 ## Repo organization and description
 Code/: contains the files constructing the framework  
 > - PIC-SURE/  
->     HPDS_connection_manager.py:  
->     utils.py:  
+>>     HPDS_connection_manager.py:  
+>>    utils.py:  
 > - preprocess/  
->    data_process.py:  
->    feature_data_imputation.py:  
->    data_generation.py:  
+>>    data_process.py:  
+>>    feature_data_imputation.py:  
+>>    data_generation.py:  
 > - feature/  
 >    feature_generation_gene.py:  
 >    feature_generation_protein.py:  
