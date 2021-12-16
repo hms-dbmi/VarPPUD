@@ -6,33 +6,33 @@ Repository with the code developed for the manuscrip VarPPUD: predicting pathoge
 - Access to the data was done via PIC-SURE
 
 ## Repo organization and description
-Code/: contains the files constructing the framework 
-    - PIC-SURE/
-        HPDS_connection_manager.py:
-        utils.py:
-    - preprocess/
-        data_process.py: 
-        feature_data_imputation.py: 
-        data_generation.py:
-    - feature/
-        feature_generation_gene.py:
-        feature_generation_protein.py:
-        feature_generation_variant.py:
-    - model/
-        model.py:
-        main.py:
-        method_comparison.py:
-    - analysis/
-        statistics.py:
-        visualization.py
+Code/: contains the files constructing the framework  
+    - PIC-SURE/  
+        HPDS_connection_manager.py:  
+        utils.py:  
+    - preprocess/  
+        data_process.py:  
+        feature_data_imputation.py:  
+        data_generation.py:  
+    - feature/  
+        feature_generation_gene.py:  
+        feature_generation_protein.py:  
+        feature_generation_variant.py:  
+    - model/  
+        model.py:  
+        main.py:  
+        method_comparison.py:  
+    - analysis/  
+        statistics.py:  
+        visualization.py  
              
-Data/: Raw and intermediate data in the work 
-    - raw/:
-    - database/:
-    - feature/:
+Data/: Raw and intermediate data in the work   
+    - raw/:  
+    - database/:  
+    - feature/:  
 
 ## Steps to run the codes
-1. Clone the repository: git clone https://github.com/hms-dbmi/VarPPUD
+1. Clone the repository: git clone https://github.com/hms-dbmi/VarPPUD  
 2. 
 
 
