@@ -7,8 +7,8 @@ Repository with the code developed for the manuscrip VarPPUD: predicting pathoge
 
 ## Repo organization and description
 Code/: contains the files constructing the framework  
-> - PIC-SURE/  
->>     HPDS_connection_manager.py:  
+&ensp - PIC-SURE/  
+&ensp &ensp     HPDS_connection_manager.py:  
 >>    utils.py:  
 > - preprocess/  
 >>    data_process.py:  
