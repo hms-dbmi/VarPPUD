@@ -33,8 +33,9 @@ Data/: Raw and intermediate data in the work
 
 ## Steps to run the codes
 1. Clone the repository: git clone https://github.com/hms-dbmi/VarPPUD  
-2. Change the Code files to the directory where your data is located
+2. Change the the directory of all code files to the location where your data is accessed
 3. Run 
+4. Run 
 
 
 ## Publication
