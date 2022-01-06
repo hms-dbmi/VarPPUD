@@ -41,7 +41,7 @@ Data/: Raw and intermediate data in the work
 7. Run statistics.py and visualization.py for statistical analysis and visualization of input data and results  
 
 ## Publication
-This code supports the analysis presented in: “VarPPUD: predicting pathogenicity of gene-variant combinations in the undiagnosed disease patients” (publication under review).
+This code supports the analysis presented in: “VarPPUD: predicting pathogenicity of gene-variant combinations in the undiagnosed disease patients”.
 
 
 ## License
