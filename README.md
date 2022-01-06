@@ -8,23 +8,23 @@ Repository with the code developed for the manuscrip VarPPUD: predicting pathoge
 ## Repo organization and description
 Code/: contains the files constructing the framework  
 &emsp; - PIC-SURE/  
-&emsp;&emsp;   HPDS_connection_manager.py: Build connection with PIC-SURE 
-&emsp;&emsp;   utils.py: functions access data using PIC-SURE
+&emsp;&emsp;   HPDS_connection_manager.py: Build connection with PIC-SURE  
+&emsp;&emsp;   utils.py: functions access data using PIC-SURE  
 &emsp; - preprocess/  
-&emsp;&emsp;    data_process.py: data preprocessing and cleaning based on inclusion criteria 
-&emsp;&emsp;    feature_data_imputation.py: data imputation methods 
-&emsp;&emsp;    data_generation.py: synthetic data generation using CTGAN through constraints
+&emsp;&emsp;    data_process.py: data preprocessing and cleaning based on inclusion criteria   
+&emsp;&emsp;    feature_data_imputation.py: data imputation methods   
+&emsp;&emsp;    data_generation.py: synthetic data generation using CTGAN through constraints  
 &emsp; - feature/  
-&emsp;&emsp;    feature_generation_gene.py: features generated based on genes
-&emsp;&emsp;    feature_generation_protein.py: feature generated based on protein variant  
-&emsp;&emsp;    feature_generation_variant.py:  feature generated based on nucleotide variant 
+&emsp;&emsp;    feature_generation_gene.py: features generated based on genes  
+&emsp;&emsp;    feature_generation_protein.py: feature generated based on protein variant    
+&emsp;&emsp;    feature_generation_variant.py:  feature generated based on nucleotide variant   
 &emsp; - model/  
-&emsp;&emsp;    model.py: functions to implement prediction and plot ROC and PR curves 
-&emsp;&emsp;    main.py: loading data and run the codes for prediction of variant pathogenicity 
-&emsp;&emsp;    method_comparison.py: prediction results using other state-of-the-art methods 
+&emsp;&emsp;    model.py: functions to implement prediction and plot ROC and PR curves   
+&emsp;&emsp;    main.py: loading data and run the codes for prediction of variant pathogenicity   
+&emsp;&emsp;    method_comparison.py: prediction results using other state-of-the-art methods   
 &emsp; - analysis/  
-&emsp;&emsp;    statistics.py: statistical analysis for inclusion patients data 
-&emsp;&emsp;    visualization.py: figure visualizations 
+&emsp;&emsp;    statistics.py: statistical analysis for inclusion patients data  
+&emsp;&emsp;    visualization.py: figure visualizations   
              
 Data/: Raw and intermediate data in the work   
 &emsp;    - raw/:  
