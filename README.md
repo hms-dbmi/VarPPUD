@@ -28,14 +28,14 @@ Code/: contains the files constructing the framework
              
 Data/: Raw and intermediate data in the work   
 &emsp;    - raw/: The raw data is avaialable upon request, accessing to the data was done via PIC-SURE  
-&emsp;    - database/: databases used to generate features 
-&emsp;    - feature/: numerical feature representations
+&emsp;    - database/: databases used to generate features  
+&emsp;    - feature/: numerical feature representations  
 
 ## Steps to run the codes
-1. Clone the repository: git clone https://github.com/hms-dbmi/VarPPUD  
-2. Change the the directory of all code files to the location where your data is accessed
-3. Run 
-4. Run 
+1. Clone the repository: git clone https://github.com/hms-dbmi/VarPPUD    
+2. Change the the directory of all code files to the location where your data is accessed  
+3. Run data_process.py to curate the inclusion patient information
+4. Generate 
 
 
 ## Publication
