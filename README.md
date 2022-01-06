@@ -35,8 +35,10 @@ Data/: Raw and intermediate data in the work
 1. Clone the repository: git clone https://github.com/hms-dbmi/VarPPUD    
 2. Change the the directory of all code files to the location where your data is accessed  
 3. Run data_process.py to curate the inclusion patient information
-4. Generate 
-
+4. Generate and concatenate different features through feature_generation_gene.py, feature_generation_protein.py and feature_generation_variant.py  
+5. Generate synthetic data using data_generation.py for external validation of the model  
+6. Run main.py to predict the variant pathogenicity of undiagnosed patients  
+7. Run statistics.py and visualization.py for statistical analysis and visualization of input data and results  
 
 ## Publication
 This code supports the analysis presented in: “VarPPUD: predicting pathogenicity of gene-variant combinations in the undiagnosed disease patients” (publication under review).
