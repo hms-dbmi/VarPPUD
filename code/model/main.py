@@ -66,7 +66,8 @@ draw_pr_roc(feature_imputation, label, syn_test_sample)
 # draw_roc_train_test_split(feature_imputation, label, syn_test_sample, 'rf')
 # method = ['lr', 'rf', 'xgboost']
 # for i in range(0, len(method)):
-#     draw_roc_train_test_split(feature_imputation, label, method[i])
+#     draw_roc_train_test_split(feature_imputation, label, method[I])
+
 
 
 
