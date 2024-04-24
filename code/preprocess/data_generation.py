@@ -234,7 +234,7 @@ syn_test_data.reset_index(inplace=True)
 syn_test_data = syn_test_data[syn_test_data.columns[1:40]]
 
 #export synthetic data for external evaluation
-syn_test_data.to_csv('data/synthetic/syn_test.csv')     
+#syn_test_data.to_csv('data/synthetic/syn_test.csv')     
 
 
 
